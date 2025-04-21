@@ -18,8 +18,8 @@ This application serves as an example implementation of GibWork's task managemen
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd gibwork-api-example
+git clone https://github.com/gibwork/gibwork-api-examples
+cd gibwork-api-examples
 ```
 
 2. Install dependencies:
@@ -52,12 +52,12 @@ Authenticated users can create tasks by providing:
 - Token Amount
 - Tags
 
-Endpoint used: `POST https://api2.gib.work/tasks/public/transaction`
+Endpoint used: `POST https://app.gib.work/tasks/public/transaction`
 
 ### Explore Tasks (`/exploreTasks`)
 Browse all listed tasks with features including:
-- View all tasks: `GET https://api2.gib.work/explore`
-- View individual task details: `GET https://api2.gib.work/tasks/{id}`
+- View all tasks: `GET https://app.gib.work/explore`
+- View individual task details: `GET https://app.gib.work/tasks/{id}`
 
 
 ## Contributing
